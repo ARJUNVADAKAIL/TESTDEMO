@@ -24,9 +24,22 @@ request.onload=function(){
          //console.log(data[i].name,data[i].capital)
          //console.log(`Country:${data[i].name} \n Capital:${data[i].capital}`);
          //console.log(`Country:${data[i].name} \n Capital:${data[i].capital} \n latitude:${data[i].latlng[0]} \n logitude:${data[i].latlng[1]}`);
-        console.log(`Country:${data[i].name} \n Capital:${data[i].capital} \n latitude:${data[i].latlng[0]} \n logitude:${data[i].latlng[1]} \n flag:${data[i].flag}`);
-
+        //console.log(`Country:${data[i].name} \n Capital:${data[i].capital} \n latitude:${data[i].latlng[0]} \n logitude:${data[i].latlng[1]} \n flag:${data[i].flag}`);
+var name=data[i].name;
+var long=data[i].latlng;
+wd(name,...long);
     }
+}
+function wd(name,lat,lon){
+    //console.log(`${name},${lat},${long}`)
+var url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=2b7e2d7fbd7fed252e614d69ca06e948`;
+var request=new XMLHttpRequest();
+request.open("GET",url);
+request.send();
+request.onload=function(){
+    var result=JSON.parse(request.response);
+    console.log(`${name}:${result.main.temp}`)
+}
 }
 
 //print the details 
