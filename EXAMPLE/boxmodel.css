@@ -1,0 +1,30 @@
+.content{
+    background: orange;
+    border: 10px solid hsl(13deg, 63%, 48%);
+    padding: 20px 10px;
+    border-style: double  ;
+    border-radius: 20px  ;
+    background-image: linear-gradient( 20deg, #d6e804, #e9c100, #f79700, #ff6500, #ff0303);
+}
+.banner{
+    background:url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg"),linear-gradient( 20deg, #d6e804, #e9c100, #f79700, #ff6500, #ff0303); 
+    background-blend-mode: multiply;
+    height: 500px; 
+    background-size: cover;
+    margin-bottom: 20px;
+    /* background-size: contain; 
+    background-repeat: no-repeat; */
+    background-position: center;
+}  
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+}
+p{
+    border: 2px solid crimson;
+    margin: 20px;
+}
+body{
+    margin: 0px;
+}

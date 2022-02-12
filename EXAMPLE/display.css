@@ -1,0 +1,19 @@
+H1{
+    font-size: 10px;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+p{
+    background: salmon;
+    height: 100px;
+    width: 100px;
+}
+a{
+    background-color:teal;
+    color: whitesmoke;
+    height: 100px;
+    width: 100px;  
+    /* inline elemnt does not care about the content width and height */
+    display:inline-block;
+}

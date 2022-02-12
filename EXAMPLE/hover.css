@@ -1,0 +1,108 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: orange; 
+    transition: 1s; 
+    cursor: pointer;
+}
+.box:hover{
+    /* transform: scale(2) rotate(360deg);
+    border-radius: 50%;
+    background-color: crimson; */
+    transform: scale(1.1);
+    
+}
+.box:active{ 
+    background-color: blueviolet;
+    transform: scale(0.8);
+
+}
+ 
+/* tab */
+a:focus{
+   color: teal;
+   font-size: 20px;
+}
+
+a:visited{
+    color: rgb(20, 24, 245);
+}
+
+a:active{
+color: aqua;
+}
+
+a:hover{
+    color: orange;
+} 
+
+body{
+    height: 100vh  ;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+}
+/* .container{
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+} */
+
+/* .container > p{
+    border: 3px solid red;
+} */
+
+/* .container  p{
+    border: 3px solid red;
+} */
+
+/* .middle + p {
+    border: 2px solid crimson;
+} */
+
+/* .middle + p +p {
+    border: 2px solid crimson;
+} */
+
+/* .middle ~ p {
+    border: 2px solid crimson;
+} */
+
+ul{
+    list-style: none;
+    font-size: 44px;
+    color: orange;
+}
+
+/* ul>li:nth-child(odd){
+    color:red;
+}
+
+ul>li:nth-child(even){
+    color:black; 
+} */
+ul>li:first-child{
+    color: orangered;
+}
+/* ul>li:nth-child(1){
+    color: orangered;
+} */
+ul>li:nth-child(2){
+    color: rgb(51, 255, 0);
+}
+ ul>li:nth-child(3){
+    color: rgb(0, 255, 221);
+} 
+/* ul>li:nth-child(3), ul>li:nth-child(4){
+    color: rgb(0, 255, 221);
+} */
+ul>li:nth-child(4){
+    color: rgb(0, 255, 221);
+}
+    /* ul>li:nth-child(5){
+    color: rgb(255, 0, 179);
+} */
+ul>li:last-child{
+    color: rgb(255, 0, 179);
+}

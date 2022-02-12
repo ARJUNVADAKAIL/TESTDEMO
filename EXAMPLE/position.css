@@ -1,0 +1,66 @@
+ul{
+    /* position: relative; */
+    display: flex;
+    list-style: none;
+    font-size: 44px;
+    position: sticky;
+    top: 0px;
+}
+ul > li{
+    padding: 20px;
+}
+ul>li:nth-child(1){
+    color: orangered;
+    background-color: antiquewhite;
+} 
+ul>li:nth-child(2){
+    color: rgb(51, 255, 0);
+    background-color: aqua;
+}
+ ul>li:nth-child(3){
+    color: rgb(0, 255, 221);
+    background-color: rgb(255, 60, 0);
+    /* position: relative;
+    left: 30px; */
+}   
+ul>li:nth-child(4){
+    color: rgb(0, 255, 221);
+    background-color: rgb(136, 127, 255);
+}
+ul>li:nth-child(5){
+    color: rgb(255, 0, 179);
+    background-color: rgb(17, 0, 255);
+    /* position: absolute; 
+    top: 0px;
+    right: 40px; */
+}
+/* ul>li:nth-child(even){
+    position: relative;
+    left: 30px;
+} */
+ 
+/* body{
+     height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    background-size: contain;
+    
+}  */
+
+.cookieConsentContainer{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 32px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.cookieConsentContainer:hover{
+    transform: translate(50px);
+}

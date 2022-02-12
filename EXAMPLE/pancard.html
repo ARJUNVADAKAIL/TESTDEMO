@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Upadate Form</title>
+    <style>
+        .custom-select {
+            position: relative;
+            font-family: Arial;
+            padding-right: 1000px;
+        }
+
+        span {
+            color: red;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        * {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(247, 247, 201) ;font-weight:bold" ;>
+
+        <div style="background-color:maroon ;color:white; text-align: center;">
+            <h3>Request for new pan card or/and changes or correction in pan data</h3>
+            <p style="font-style:italic">Fields marked with <span style="color: red;">*</span> are manatory. to avoid
+                mistakes(s).please refer
+                <u style="color: orange;">guidelines</u> and
+                <u style="color: orange;">instructions</u>
+            </p>
+        </div>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <span>*</span> Whether citizen of india
+                        <label for=" yes" style="padding-left:40px;">YES</label>
+                        <input type="radio" name="citi" id="yes">
+                        <label for="no" style="padding-left:20px;">No</label>
+                        <input type="radio" name="citi" id="no">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>Permanent Account Number(PAN)
+                        <label for=" yes"></label>
+                        <input type="box" name="citi" id="yes">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=" yes"></label>
+                        <input type="checkbox" name="citi" id="yes">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>1.Name
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        Title
+                        <label for=" shri" style="padding-left:40px;">Shri/mr</label>
+                        <input type="radio" name="citi2" id="shri">
+                        <label for="smt" style="padding-left:20px;">smt/mrs</label>
+                        <input type="radio" name="citi2" id="smt">
+                        <label for="ms" style="padding-left:20px;">kumari/ms</label>
+                        <input type="radio" name="citi2" id="ms">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <div>
+                            <div style="display:inline-block">
+
+                                <label for=" yes2">last name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block; padding-left:100px">
+
+                                <label for=" yes2">first name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block ; padding-left:100px">
+
+                                <label for=" yes2">middle name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+
+                            </div>
+
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>Name as you like it printed on the card <a style="color:blue">(prefix like shri
+                            ,smt,dr, late, mrs,
+                            ms, aillas are not allowed)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+
+                    </td>
+                    <td colspan="2">
+                        <input type="box" name="citi1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>Details of parent <a style="color:blue">(prefix like shri
+                            ,smt,dr, late, mrs,
+                            ms, aillas are not allowed)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+
+                    </td>
+                    <td>
+                        wether mother is a single partent and you wish to apply for pan
+                    </td>
+                    <td>
+                        <label for=" yes1" style="padding-left:40px;">YES</label>
+                        <input type="radio" name="citi1" id="yes1">
+                        <label for="no1" style="padding-left:20px;">No</label>
+                        <input type="radio" name="citi1" id="no1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>Father's Name <a style="color:blue">((Mandatory field. Even married women should
+                            give fathers name only.)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <div>
+                            <div style="display:inline-block">
+
+                                <label for=" yes2">last name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block; padding-left:100px">
+
+                                <label for=" yes2">first name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block ; padding-left:100px">
+
+                                <label for=" yes2">middle name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+
+                            </div>
+
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td colspan="2">
+                        <a style="color:blue">mothers"s Name(field is optional)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <div>
+                            <div style="display:inline-block">
+
+                                <label for=" yes2">last name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block; padding-left:100px">
+
+                                <label for=" yes2">first name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+                            <div style="display:inline-block ; padding-left:100px">
+
+                                <label for=" yes2">middle name</label><br>
+                                <input type="box" name="citi2" id="yes2">
+
+                            </div>
+
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <span>*</span>Select Parent name which Is to be printed on the card <a
+                            style="color:blue"><br>(In
+                            case no option is provided then PAN card will be issued with fathers name) <br></a>
+                    </td>
+                    <td>
+                        <label for=" yes1" style="padding-left:40px;">Fathers name</label>
+                        <input type="radio" name="citi1" id="yes1">
+                        <label for="no1" style="padding-left:20px;">Mothers name</label>
+                        <input type="radio" name="citi1" id="no1">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td>
+                        <span>*</span>Date of Birth/Incorporation/Agreement/Partnership<br> or Trust Deed/Formation of
+                        Body of individuals/ <br>Association of Persons</a>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td>
+                        <span>*</span>Gender
+                    </td>
+                    <td>
+                        <label for=" shri5" style="padding-left:40px;">Male</label>
+                        <input type="radio" name="citi26" id="shri5">
+                        <label for="smt5" style="padding-left:20px;">Female</label>
+                        <input type="radio" name="citi26" id="smt5">
+                        <label for="ms5" style="padding-left:20px;">Transgenger</label>
+                        <input type="radio" name="citi26" id="ms5">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>photo missmatch
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1">
+                    </td>
+                    <td colspan="2">
+                        <span>*</span>signature missmatch
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi1" checked>
+                    </td>
+                    <td>
+                        <span>*</span>Address for communication <br></a>
+                    </td>
+                    <td>
+                        <label for=" yes1" style="padding-left:40px;">Residential</label>
+                        <input type="radio" name="citi15" id="yes1">
+                        <label for="no1" style="padding-left:20px;">Office</label>
+                        <input type="radio" name="citi15" id="no1">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Office Name (to be filled only in case of office address)
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Flat/Door/Block No.
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Name of Premises/Building Village
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Road/Street/Lane/Post Office
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Area/Locality/Taluka/Sub-Division
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Town/City/District
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        State/Union Territory
+                    </td>
+                    <td>
+                        <label for="cars">Please select</label>
+                        <select id="cars" name="cars">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Pin
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Country
+                    </td>
+                    <td>
+
+                        <label for="pet-select">Please select</label>
+
+                        <select name="pets" id="pet-select">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Zip
+                    </td>
+                    <td>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi2" id="yes2">
+
+                    </td>
+                    <td colspan="2">
+                        If you desire to update your other address, give required details & Submit proof of other
+                        address also
+                    </td>
+
+
+                </tr>
+                <tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Country code</td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="pet-select">Please select</label>
+
+                        <select name="pets" id="pet-select">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi2" id="yes2">
+                    </td>
+                    <td>
+                        <span>*</span> telephone number(compulsory)
+                    </td>
+                    <td>
+                        <label for="ms5" style="padding-left:20px;">moblie</label>
+                        <input type="radio" name="citi26" id="ms5">
+
+                        <label for="ms5" style="padding-left:20px;">telephone</label>
+                        <input type="radio" name="citi26" id="ms5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <div>
+                            <div style="display:inline-block">
+
+                                <label for=" yes2">std</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+
+
+
+                            <div style="display:inline-block">
+
+                                <label for=" yes2">number</label><br>
+                                <input type="box" name="citi2" id="yes2">
+                            </div>
+
+
+
+                        </div>
+
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        email id
+                    </td>
+                    <td>
+                        <label for=" yes2">email</label><br>
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        incase of india citizen
+                    </td>
+                    <td>
+
+                        <label for=" yes1" style="padding-left:40px;">AADHAR</label>
+                        <input type="radio" name="citi154" id="yes1">
+                        <label for="no1" style="padding-left:20px;">EID</label>
+                        <input type="radio" name="citi154" id="no1">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <span>*</span> AADHAR number:
+                    </td>
+                    <td>
+
+                        <input type="box" name="citi2" id="yes2"><br>
+                        <label for=" yes2" style="color: blue;">In case addhar number is provided<br>then proof of
+                            aadhar along with supporting documents </label>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        GSTN
+                    </td>
+                    <td>
+
+                        <input type="box" name="citi2" id="yes2">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="citi2" id="yes2">
+                    </td>
+                    <td colspan="2">
+                        <u> Mention other Permanent Account Numbers (PANS) if any,lnadvertentty allotted to you. Submit
+                            proof of
+                            surrendered PAN(s) along with the application.</u>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <label for=" yes2" ">Pan 1</label>
+                        <input type=" box" name="citi2" id="yes2">
+                    </td>
+                    <td>
+                        <label for=" yes2" ">Pan 2</label>
+                        <input type=" box" name="citi2" id="yes2">
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <label for=" yes2" ">Pan 3</label>
+                        <input type=" box" name="citi2" id="yes2">
+                    </td>
+                    <td>
+                        <label for=" yes2" ">Pan 4 </label>
+                        <input type=" box" name="citi2" id="yes2">
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        Verification
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        i/We <input type=" box" name="citi2" id="yes2">the applicant.in the capacity of
+                        <label for="pet-select">Please select</label>
+                        <select name="pets" id="pet-select"></select>
+
+                        do hereby
+                        declare that what is stated above is true to <br>the best of my information and belief.
+                        <br>I have enclosed <input type=" box" name="citi2" id="yes2">(number of documents) in support
+                        of proposed changes/corrections
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        Place <input type=" box" name="citi2" id="yes2">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        verifired today ,the 18-04-2020
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        i/we have enclosed <br>
+
+                        <select style="max-width:90%" name="cars" class="custom-select" class="custom-select" id="cars"
+                            form="carform">
+                            <option disabled selected>Please select</option>
+                        </select>as proof <br>
+                        of identity<select style="max-width:90%" name="cars" class="custom-select" class="custom-select"
+                            id="cars" form="carform">
+                            <option disabled selected>Please select</option>
+                        </select> as proof of address<br>
+                        please select<select style="max-width:90%" name="cars" class="custom-select"
+                            class="custom-select" id="cars" form="carform">
+                            <option disabled selected>Please select</option>
+                        </select> as proof of date of birth<br>and<select style="max-width:90%" name="cars"
+                            class="custom-select" class="custom-select" id="cars" form="carform">
+                            <option disabled selected>Please select</option>
+                        </select> as proof of span
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        Whether you wish to have
+                        <label for="ms5" style="padding-left:20px;">physical pan card</label>
+                        <input type="radio" name="citi264" id="ms5">
+
+                        <label for="ms5" style="padding-left:20px;">only e pan card</label>
+                        <input type="radio" name="citi264" id="ms5">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        other details
+                    </td>
+
+                </tr>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <label for=" yes12">DP ID:</label>
+                        <input type="box" name="citi23" id="yes12">
+                        <label for=" yes21">Client ID</label>
+                        <input type="box" name="citi25" id="yes21">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        depository account details
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        payment details
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="citi2645" id="ms5">
+                    </td>
+                    <td colspan="2">
+                        online payment
+                    </td>
+
+
+                </tr>
+
+
+
+
+            </table>
+        </div>
+
+        <div>
+            <div style="padding-top: 10px;">
+                <p style="display: inline;">For paperless PAN application </p>
+                <label for="ms56" style="padding-left:20px;">yes</label>
+                <input type="radio" name="citi266" id="ms56">
+
+                <label for="ms57" style="padding-left:20px;">no</label>
+                <input type="radio" name="citi266" id="ms57"><br>
+            </div>
+            <div style="padding-top: 10px;">
+                <input type="radio" name="citi266" id="ms577">
+                <label for="ms577" style="padding-left:20px;">DCS</label>
+                </select> as proof of date of birth<br>
+            </div>
+            <div style="padding-top: 10px;">
+                and<select name="cars" "
+                 id=" cars" form="carform">
+                    <option disabled selected>Please select</option>
+                </select><u style="color: orange;">guidelines for DSC user</u><br>
+            </div>
+            <div style="padding-top: 10px;">
+                <span style="padding-right:300px; color:black" ;>Upload photo</span>
+                <label for="myfile">choose file</label>
+                <input type="file" id="myfile" name="myfile">
+                <span style="padding-left:100px; color:black" ;>Upload signature</span>
+                <label for="myfile">choose file</label>
+                <input type="file" id="myfile" name="myfile"><br>
+            </div>
+            <div style="padding-top: 10px;">
+                <span style="padding-right:270px; color:black" ;>Upload document</span>
+                <label for="myfile">choose file</label>
+                <input type="file" id="myfile" name="myfile"><br>
+            </div>
+
+
+            <div style="padding-top: 10px;">
+                <span style="padding-right:298px; color:black" ;>Alredy Uploaded photo</span>
+
+                <input type="box" id="myfile" name="myfile"><br>
+            </div>
+            <div style="padding-top: 10px;">
+                <span style="padding-right:270px; color:black" ;>Alredy Uploaded Signature</span>
+
+                <input type="box" id="myfile" name="myfile"><br>
+            </div>
+            <div style="padding-top: 10px;">
+                <span ;></span>
+                <label style="padding-right:260px; color:black" for="w3review">Alredy Uploaded Documents</label>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+            </div>
+            <div class="container" style="padding-left:50%;">
+                <button id="btn"> Submit </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+
+</html>

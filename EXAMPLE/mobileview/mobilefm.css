@@ -1,0 +1,82 @@
+.card-content{
+    /* border:1px solid red; */
+    padding: 28px;
+}
+ 
+.office-image {
+    background-image: url("https://avepointcom.azureedge.net/blog/wp-content/uploads/2018/10/iStock-887882750.jpg");
+    background-color:hsl(276deg 51% 60%); 
+    background-blend-mode:luminosity;
+    background-size: contain;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 985px;
+}
+section{
+    background-color: hsl(246deg 38% 16%);
+    color:hsl(200deg 100% 99%);  
+    display: flex;
+    flex-direction:column-reverse;
+    /* height: 658px; */
+    font-family: 'Lexend Deca', sans-serif;
+    max-width: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.card-info{
+    color: hsl(245deg 11% 54%);
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+.card-counter-title{
+    color: hsl(245deg 11% 54%);
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.card-social{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.card-counter{
+    margin-top: 55px
+}
+.insights{
+     color:hsl(276deg 51% 60%);
+}
+body{
+    background-color:hsl(233deg 46% 7%);
+    display: flex ;
+    height: 100vh  ;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+}
+@media (min-width:540px){
+    .office-image{
+        background-size: cover;
+    }
+    .card-social{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+}
+@media (min-width:772px){
+    section{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        flex-direction: row;
+    }
+    .card-social{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
